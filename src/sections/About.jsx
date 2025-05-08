@@ -58,7 +58,9 @@ const[hasCopied, setHasCopied]=useState(false);
                         <p className="grid-subtext">
                             I am based in Ontario, Canada, with remote work available
                         </p>
-                        <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                        <a href="#contact">
+                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                        </a>
 
                     </div>
                 </div>

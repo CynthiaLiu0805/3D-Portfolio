@@ -8,7 +8,7 @@ const Navbar = () => {
                 {navLinks.map(({id, href, name})  => (
                     <li key={id} className="nav-li">
                         <a href={href} className="nav-li_a" onClick={onClick}>
-                        {name}
+                            {name}
                         </a>
 
 
