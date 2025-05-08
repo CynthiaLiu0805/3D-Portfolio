@@ -55,7 +55,7 @@ export const clientReviews = [
             'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
     },
 ];
-
+// TODO: fill in my own things
 export const myProjects = [
     {
         title: 'Podcastr - AI Podcast Platform',
