@@ -36,13 +36,13 @@ const Projects = () => {
                         <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
                     </div>
 
-                    <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
-                        <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm" />
+                    {/*<div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>*/}
+                    {/*    <img src={currentProject.logo} alt="logo" className="w-10 h-10 shadow-sm" />*/}
 
-                    </div>
+                    {/*</div>*/}
                     <div className = "flex flex-col gap-5 text-white-600 my-5">
                         <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
-                        <p className="animatedText">{currentProject.description}</p>
+                        <p className="animatedText">{currentProject.desc}</p>
                         <p className="animatedText">{currentProject.subdesc}</p>
                     </div>
 
@@ -59,7 +59,7 @@ const Projects = () => {
                             href={currentProject.href}
                             target="_blank"
                             rel="noreferrer">
-                            <p>Check Live Site</p>
+                            <p>Explore More</p>
                             <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
 
                         </a>
