@@ -63,7 +63,7 @@ const Hero = () => {
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
                 <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
                     Hi, I am Cynthia <span className="waving-hand">👋</span> </p>
-                <p className="hero_tag text-gray_gradient">Todo: put some thing</p>
+                <p className="hero_tag text-gray_gradient">Code that solves</p>
             </div>
             <div className={`w-full h-full absolute inset-0 ${
                 isSmall || isMobile || isTablet ? 'mt-2' : 'mt-6'

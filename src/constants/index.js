@@ -21,7 +21,6 @@ export const navLinks = [
     },
 ];
 
-// TODO: fill in my own things
 export const myProjects = [
     {
         title: 'BCEP - Bridge Chloride Exposure Predictor ',
@@ -34,54 +33,54 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Vue.js',
+                path: '/assets/logos/vue.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Python',
+                path: 'assets/logos/python.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/logos/js.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'CICD',
+                path: '/assets/logos/cicd.png',
             },
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'MacRun - Gamified Running App with Personalized Workouts',
+        desc: 'In this mobile game application, users engage in real-world running sessions that are gamified with interactive elements like virtual enemies and personalized fitness challenges. The app tracks runners through geo-fenced trails and uses connected Heart Rate Monitors (HRMs) to adjust intensity based on physical response. Decisions are remembered by the system to adapt the training plan, with event triggers maintaining the player’s heart rate within their cardio zone for effective training.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/project2.mp4',
+            'Designed and implemented a distributed system using a micro-service architecture, each bounded context handled features such as user profiles, trail management, and challenge tracking. Eureka is intergrated for service discovery and Spring Gateway is for distribute synchronous requests with load balancing. Services were containerized and deployed using Docker in a UNIX/Linux environment. Developed and validated API endpoints using Postman to ensure consistent service behavior and performance.',
+        href: 'https://github.com/CynthiaLiu0805/macrun',
+        texture: '/textures/project/macrun.mp4',
         spotlight: '/assets/spotlight2.png',
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Microservice',
+                path: '/assets/logos/microservice.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Docker',
+                path: 'assets/logos/docker.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Spring Boot',
+                path: '/assets/logos/springboot.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Postman',
+                path: '/assets/logos/postman.png',
             },
         ],
     },
@@ -97,22 +96,22 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: '/assets/logos/react.svg',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Go',
+                path: 'assets/logos/go.png',
             },
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: '/assets/logos/typescript.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'InfluxDB',
+                path: '/assets/logos/influxdb.png',
             },
         ],
     },
@@ -121,29 +120,19 @@ export const myProjects = [
         desc: 'Love, Cat & Robot is an RPG game that combines emotional storytelling with retro aesthetics. Players step into Tyra\'s life, navigating her daily routine and uncovering the hidden truths of a mysterious world. Through interaction with two central NPCs—Tyra’s pet cat and Derek, an AI assistant, players are allowed to shape the direction of the story, unlocking different endings based on their decisions. As the plot evolves, the game transforms from a peaceful routine into a haunting experience filled with metafictional twists and darker undertones, keeping players immersed and eager to discover the true endings. ',
         subdesc:
             'Developed in Unity, Tyra features pixel art backgrounds to evoke a nostalgic yet atmospheric setting. The gameplay blends exploration, branching dialogues, and mini bullet-hell combat. Players use WASD keys for movement and the mouse for interactions, seamlessly shifting between contestant-based dialogue choices and avatar-based combat sequences. This hybrid interaction model ensures a varied and engaging experience, balancing narrative depth with gameplay challenge. ',
-        href: 'https://github.com/CynthiaLiu0805/Waterra/tree/master',
+        href: 'https://github.com/CynthiaLiu0805/Love-Cat-Robot',
         texture: '/textures/project/lovecatrobot.mp4',
         spotlight: '/assets/spotlight3.png',
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Unity',
+                path: '/assets/logos/unity.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'C#',
+                path: 'assets/logos/csharp.png',
             },
         ],
     },
@@ -158,54 +147,18 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'Node.js',
+                path: '/assets/logos/nodejs.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'MongoDB',
+                path: 'assets/logos/mongodb.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based models.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Plotly',
+                path: '/assets/logos/plotly.png',
             },
         ],
     },
