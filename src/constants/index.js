@@ -28,7 +28,7 @@ export const myProjects = [
         subdesc:
             'Built as a web application using Vue.js, HTML, and CSS, BCEP delivers visualizations of chloride exposure predictions through an intuitive user interface. Python was used to construct the backend database and generate prediction trends based on climate and traffic datasets. The project incorporates Continuous Integration via GitHub Actions for streamlined testing, while stakeholder feedback is managed through GitHub Issues. A tailored requirement validation process ensures ongoing alignment with user needs and supports long-term maintainability.',
         href: 'https://bcep.onrender.com/',
-        texture: '/textures/project/waterra.mp4',
+        texture: '/textures/project/bcep.mp4',
         spotlight: '/assets/spotlight1.png',
         tags: [
             {
